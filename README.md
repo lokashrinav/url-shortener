@@ -1,6 +1,3 @@
-Here is the formatted `README.md` file for your URL shortener written in Go:
-
-```markdown
 # URL Shortener
 
 A simple URL shortener written in Go, where routes are mapped to shortened URLs. If a user accesses any route that matches a path in the map, they are redirected to the corresponding URL.
@@ -85,6 +82,3 @@ To customize the mappings, modify the `urlMap` variable in `main.go` to include 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
-This README provides clear instructions on how to set up, run, and customize the URL shortener application.
