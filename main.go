@@ -11,6 +11,9 @@ func main() {
 	urlMap := map[string]string {
 		"/url": "https://gophercises.com/",
 		"/dog": "https://github.com/lokashrinav?tab=repositories",
+		"/go":       "https://golang.org",
+		"/openai":   "https://openai.com",
+		"/github":   "https://github.com",
 	}
 
 	mux.HandleFunc("/", func (w http.ResponseWriter, r *http.Request) {
@@ -23,6 +26,6 @@ func main() {
 		}
 	})
 
-	http.ListenAndServe(":3000", mux)
+	http.ListenAndServe(":8080", mux)
 	
 }
